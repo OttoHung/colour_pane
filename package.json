@@ -1,0 +1,23 @@
+{
+  "author": "OttoHung",
+  "dependencies": {
+    "http-server": "latest"
+  },
+  "devDependencies": {
+    "copyfiles": "latest",
+    "ts-node": "latest",
+    "typescript": "latest",
+    "@types/node": "latest"
+  },
+  "description": "This is an interview app",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "interview",
+  "scripts": {
+    "build": "tsc",
+    "draw": "node ./dist/index.js",
+    "postbuild": "copyfiles -f public/*.html dist",
+    "serve": "http-server dist"
+  },
+  "version": "0.1.0"
+}
