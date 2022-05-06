@@ -1,6 +1,6 @@
 # What is Colour Pane
 
-Colour Pane generates colours from `RGB(8, 8, 8)` to `RGB(255, 255, 255)` on a web page.
+Colour Pane generates colours from `RGB(8, 8, 8)` to `RGB(255, 255, 255)` on a web page. Each colour component is increased or decresed by `8` to redner the colour blocks.
 
 ![result.png](imgs/result.png)
 
